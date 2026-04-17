@@ -10,18 +10,17 @@ The goal of this project is to build a strong foundation in machine learning by 
 
 ## Project Structure
 
+```bash
 ML/
 │
-├── ERROR/
-│   ├── error.ipynb
+├── data/
 │   └── placement.csv
 │
-├── LINEAR REGRESSION/
-│   ├── SimpleRegression.ipynb
-│   └── placement.csv
+├── linear_regression/
+│   └── simple_regression.ipynb
 │
-├── MULTIPLE LINEAR REGRESSION/
-│   └── MultipleLR.ipynb
+├── multiple_linear_regression/
+│   └── multiple_lr.ipynb
 │
 ├── gradient_descent/
 │   ├── gradient_descent.ipynb
@@ -101,7 +100,6 @@ b = b - α * ∂L/∂b
 * Gradient Descent Optimization
 * Differentiation of Loss Functions
 * Model Training and Prediction
-* Error Analysis
 
 ---
 
@@ -119,6 +117,7 @@ b = b - α * ∂L/∂b
 ## Dataset
 
 * Dataset used: placement.csv
+* Located in the `data/` directory
 * Contains features related to student data for prediction tasks
 
 ---
@@ -155,12 +154,6 @@ The models are evaluated using:
 * Mean Absolute Error (MAE)
 * Root Mean Squared Error (RMSE)
 * R squared score
-
----
-
-## Error Analysis
-
-The ERROR folder contains debugging notebooks and experiments that help in understanding mistakes and improving model performance.
 
 ---
 
