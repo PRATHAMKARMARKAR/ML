@@ -10,7 +10,6 @@ The goal of this project is to build a strong foundation in machine learning by 
 
 ## Project Structure
 
-```bash
 ML/
 │
 ├── ERROR/
@@ -23,6 +22,11 @@ ML/
 │
 ├── MULTIPLE LINEAR REGRESSION/
 │   └── MultipleLR.ipynb
+│
+├── gradient_descent/
+│   ├── gradient_descent.ipynb
+│   ├── gradient_descent_from_scratch.ipynb
+│   └── animation.gif
 │
 └── README.md
 ```
